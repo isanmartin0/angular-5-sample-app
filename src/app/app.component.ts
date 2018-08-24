@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title: string = null;
+  title: string = 'app works!';
 
   ngOnInit(): void {
-    this.title = 'app works';
+    this.title = 'app works!';
   }
 }
